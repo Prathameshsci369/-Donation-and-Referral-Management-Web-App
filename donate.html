@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate</title>
+    <link rel="stylesheet" href="assets/css/donate.css">
+</head>
+<body>
+    <div class="sidebar">
+        <h2>Menu</h2>
+        <ul>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="transactions.html">Transactions</a></li>
+            <li><a href="donate.html">Donate</a></li>
+        </ul>
+    </div>
+    <div class="main-content">
+        <h1>Make a Donation</h1>
+        <form id="donationForm">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" required>
+            
+            <label for="amount">Donation Amount:</label>
+            <input type="number" id="amount" required>
+            
+            <button type="submit">Donate</button>
+        </form>
+    </div>
+    
+    <script src="assets/js/donate.js"></script>
+</body>
+</html>

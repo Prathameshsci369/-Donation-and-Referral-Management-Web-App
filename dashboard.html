@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="assets/css/dashboard.css">
+</head>
+<body>
+    <div class="sidebar">
+        <h2>Menu</h2>
+        <ul>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="transactions.html">Transactions</a></li>
+            <li><a href="donate.html">Donate</a></li>
+        </ul>
+    </div>
+    <div class="main-content">
+        <h1>Welcome, <span id="userName">User</span></h1>
+        <div class="stats">
+            <h3>Goal Achieved: <span id="goalAchieved">$0</span></h3>
+            <button id="copyLink">Copy Donation Link</button>
+            <button id="shareWhatsApp">Share on WhatsApp</button>
+            <p>Your Referral Code: <strong id="refCode">ABC123</strong></p>
+        </div>
+    </div>
+    <script src="assets/js/dashboard.js"></script>
+</body>
+</html>
